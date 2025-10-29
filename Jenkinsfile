@@ -75,7 +75,7 @@ pipeline {
             deleteDir()
         }
         success {
-            echo " Pipeline succeeded! Version ${APP_VERSION} built and tested."
+            echo " Muhammad Ali Sajjad (Update) Pipeline succeeded! Version ${APP_VERSION} built and tested."
         }
         failure {
             echo " Pipeline failed! Check console output for details."
